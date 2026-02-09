@@ -1,0 +1,173 @@
+.box1{
+    width: 100px;
+    height: 50px;
+    color: rgb(255, 249, 199);
+    position: fixed;
+
+}
+
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 500px solid rgba(240, 248, 255, 0.685);
+    position: absolute; top: 250px; left:598px;
+
+}
+
+@keyframes color{
+    0%{
+        background-color: aliceblue;
+    }
+    50%{
+        background-color: rgb(177, 177, 255);
+    }
+    100%{
+        background-color: rgb(80, 80, 219);
+        }
+    100%{
+       background-color:aliceblue;
+    }
+}
+
+body{
+    background-color: aliceblue;
+    animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.circle-link {
+    display: block; /* Make the link a block element so you can define its width and height */
+    width: 100px;
+    height: 100px;
+    background-color: blue; /* The color of the circle */
+    border-radius: 50%; /* This is what makes it a circle */
+    text-decoration: none; /* Removes the default link underline */
+    /* Add hover effects if desired */
+    position: absolute;top: 490px; left:795px;
+  }
+  
+  .circle-link:hover {
+    background-color: darkblue;
+  }
+  
+
+  /* 1. Style the square element */
+.spinning-square {
+    width: 600px;         /* Set the width of the square */
+    height: 600px;        /* Set the height of the square */
+    background-color: rgb(199, 199, 255); /* Add a background color */
+    margin: 170px auto;    /* Center the square on the page */
+  }
+  
+  /* 2. Define the keyframe animation */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg); /* Start the rotation at 0 degrees */
+    }
+    to {
+      transform: rotate(360deg); /* End the rotation at 360 degrees (a full turn) */
+    }
+  }
+  
+  .spinning-square {
+    animation: spin 2s linear infinite;
+  }
+
+
+.square{   
+    display: block; /* Make the link a block element so you can define its width and height */
+    width: 200px;
+    height: 200px;
+    background-color: white; /* The color of the circle */
+    text-decoration: none; /* Removes the default link underline */
+    position: absolute;top: 400px; left:758px;
+  }
+  
+  .square:hover {
+    background-color: darkblue;
+  }
+
+
+
+  .square-link {
+    display: block; /* Make the link a block element so you can define its width and height */
+    width: 600px;
+    height: 600px;
+    background-color: pink; /* The color of the circle */
+    text-decoration: none; /* Removes the default link underline */
+    /* Add hover effects if desired */
+    margin:170px auto;
+  }
+  
+  .square-link:hover {
+    background-color: rgb(255, 141, 236)
+  }
+
+
+
+.spinning-square2 {
+    text-decoration: none; /* Removes the default underline from the link */
+    display: inline-block; /* Ensures the link wraps tightly around the shape */
+  }
+  
+
+  .square2 {
+    margin-left:530px;
+    margin-top: 175px;
+    width: 600px;
+    height: 600px;
+    background-color: pink; /* Blue color for the shape */
+    animation: spin 2s linear infinite;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Define the keyframe animation */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Optional: Add hover effect to indicate it's clickable */
+  .spinning-square2:hover .shape {
+    background-color: #0056b3; /* Darker blue on hover */
+    cursor: pointer; /* Ensures the cursor changes to a hand icon */
+  }
+  
+
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 500px solid blue;
+    position: absolute; top: 250px; left:598px;
+
+}
+
+
+
+.circle-link2 {
+    display: block; /* Make the link a block element so you can define its width and height */
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 248, 255); /* The color of the circle */
+    border-radius: 50%; /* This is what makes it a circle */
+    text-decoration: none; /* Removes the default link underline */
+    /* Add hover effects if desired */
+    position: absolute;top: 490px; left:795px;
+  }
+  
+  .circle-link2:hover {
+    background-color: darkblue;
+  }
+ 
